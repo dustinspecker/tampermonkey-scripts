@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Invoke SDI with multiple employee
-// @version      0.1
+// @version      0.2
 // @description  Invoke SDI with multiple employee
 // @author       You
 // @match        http://localhost:4201/
@@ -12,5 +12,5 @@
     'use strict';
 
     // Your code here...
-    window.postMessage(JSON.stringify({ type: 'INIT', data: { initializationData: { subjectEmpId: [100, 8, 5425] } }}), window.location.origin);
+    window.postMessage(JSON.stringify({ type: 'INIT', data: { initializationData: { authorEmpId: 100, subjectEmpId: [100, 8, 5425] } }}), window.location.origin);
 })();
