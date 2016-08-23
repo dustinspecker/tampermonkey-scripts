@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Invoke SDI with 1 employee
-// @version      0.2
+// @version      0.3
 // @description  Invoke SDI with 1 employee
 // @author       You
 // @match        http://localhost:4201/
@@ -12,5 +12,5 @@
     'use strict';
 
     // Your code here...
-    window.postMessage(JSON.stringify({ type: 'INIT', data: { initializationData: { authorEmpId: 100, subjectEmpId: [100] } }}), window.location.origin);
+    window.postMessage(JSON.stringify({ type: 'INIT', data: { initializationData: { applicationName: 'SDI', authorEmpId: 100, subjectEmpId: [100] } }}), window.location.origin);
 })();
