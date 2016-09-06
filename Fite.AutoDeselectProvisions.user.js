@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Auto Deselect Provisions
-// @version      0.1
+// @version      0.2
 // @description  Automatically deselect provisions
 // @author       You
-// @match        https://www.fite.lan/
+// @match        http*://www.fite.lan/
 // @updateURL    https://raw.githubusercontent.com/dustinspecker/tampermonkey-scripts/master/Fite.AutoDeselectProvisions.user.js
 // @grant        none
 // ==/UserScript==

@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Invoke SDI with nothing
-// @version      0.3
+// @version      0.4
 // @description  Invoke SDI right away
 // @author       You
-// @match        http://localhost:4201/
+// @match        http*://localhost:4201/
 // @updateURL    https://raw.githubusercontent.com/dustinspecker/tampermonkey-scripts/master/InvokeSDIWithNothing.user.js
 // @grant        none
 // ==/UserScript==

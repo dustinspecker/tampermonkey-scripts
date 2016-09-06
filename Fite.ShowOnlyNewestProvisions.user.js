@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Show Only Newest Provisions
-// @version      0.1
+// @version      0.2
 // @description  Show Only Newest Provision of each application on fite pages
 // @author       You
-// @match        https://www.fite.lan/
+// @match        http*://www.fite.lan/
 // @updateURL    https://raw.githubusercontent.com/dustinspecker/tampermonkey-scripts/master/Fite.ShowOnlyNewestProvisions.user.js
 // @grant        none
 // ==/UserScript==
