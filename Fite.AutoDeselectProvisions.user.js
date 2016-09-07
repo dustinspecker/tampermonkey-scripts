@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto Deselect Provisions
-// @version      0.3
+// @version      0.4
 // @description  Automatically deselect provisions
 // @author       You
 // @match        http*://www.fite.lan/
@@ -21,8 +21,6 @@
         Array.from(document.querySelectorAll('input[type=checkbox]')).forEach(input => input.checked = false);
     };
 
-    if (window.location.hash.endsWith('provision')) {
-        window.addEventListener('scroll', handler);
-    }
+    window.addEventListener('scroll', handler);
 })();
 
