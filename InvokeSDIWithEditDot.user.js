@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Invoke SDI with a delegate
+// @name         Invoke SDI with a dot id to edit
 // @version      0.4
-// @description  Invoke SDI with a delegate
+// @description  Invoke SDI with a dot id to edit
 // @author       You
 // @match        http*://localhost:4201/
 // @updateURL    https://raw.githubusercontent.com/dustinspecker/tampermonkey-scripts/master/InvokeSDIWithEditDot.user.js
